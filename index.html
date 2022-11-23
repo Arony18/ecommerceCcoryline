@@ -1,0 +1,549 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VENTA DE EQUIPOS TECNOLOGICOS</title>
+   
+     <script src="https://kit.fontawesome.com/064be11dc6.js" crossorigin="anonymous"></script>
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+       <!-- Bootstrap CSS -->
+       <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <link rel="stylesheet" href="estilos.css">
+    <link rel="icon" type="image/webp" href="img/logo.webp">
+
+   <!-- <style type="text/css">
+        a:link, a:visited, a:active {
+            text-decoration:none;
+        }
+    </style> -->
+</head>
+<body>
+<header >
+    <div class="header__superior">
+      <div class="logo">
+        <img src="img/logo.png" alt="">
+      </div>
+    
+      
+      <div class="border border-primary">
+        <button class="border border-light"  type="submit"> <a href="login.html"> iniciar sesion </a> </button> <i  class="fas fa-user"></i> 
+      </div>
+      <div class="carrito">
+        <a href="" class="main-header__btn">Mi carrito<i class="fa-solid fa-cart-shopping"></i></a>
+
+      </div>
+    
+      <div class="search">
+      <input type="search" placeholder="Buscar producto"><i type="search" class="fa-solid fa-magnifying-glass"></i>
+    </div>
+    </div>
+
+    <div class="container__menu">
+
+      <div class="menu">
+      <input type="checkbox" id="check__menu">
+        <label for="check__menu" id="label__check" >
+           <i class="fa-solid fa-bars icon__menu"></i>
+        </label>
+      <nav>
+          <ul>
+            <li><a href=""id="selected"></a></li>
+            <li><a href="#">COMPUTADORAS</a>
+              <ul>
+                <li> <a href="#allinone">ALL IN ONE</a></li>
+                <li> <a href="#pcescritorio">COMPUTADORA DE ESCRITORIO</a></li>
+                <li><a href="#pcgamer">PC GAMER</a> </li>
+                <li><a href="#laptop">LAPTOP</a> </li>
+              </ul>
+            </li>
+            <li><a href="#">ACCESORIOS</a>
+              <ul>
+                <li> <a href="#ddr">DISCO DURO</a></li>
+                <li> <a href="#ran">MEMORIA RAM</a></li>
+                <li><a href="#cpu">PROCESADORES</a> </li>
+                <li><a href="#PLACA_MADRE">PLACA MADRE</a> </li>
+                <li><a href="#case">CASE</a> </li>
+              </ul>
+            </li>
+            <li><a href="#">ZONA GAMER</a>
+              <ul>
+                <li> <a href="#">MAINBOARD GAMER</a></li>
+                <li> <a href="#">MOUSE GAMER</a></li>
+                <li><a href="#silla_gamer">SILLA GAMER</a> </li>
+                <li><a href="#teclados">TECLADO GAMER</a> </li>
+              </ul>
+            </li>
+            <li><a href="#">IMPRESORAS</a>
+              <ul>
+                <li> <a href="#">IMPRESORA DE TINTA</a></li>
+                <li> <a href="#">IMPRESORAS LASER</a></li>
+                <li><a href="#">SUMINISTROS</a> </li>
+              </ul>
+            </li>
+            <li><a href="#">INFO</a>
+              <ul>
+                <li> <a href="#pie">CONTACTANOS</a></li>
+                <li> <a href="#">PREGUNTAS FRECUENTES</a></li>
+                
+              </ul>
+            </li>
+          </ul>
+      </nav> 
+    </div>
+    </div>
+  </header>
+  <div class="container-slider">
+
+    <div class="slider" id="slider">
+
+    <div class="slider__section">
+      <img src="img/uno.webp" alt="" class="slider__img">
+    </div> 
+    <div class="slider__section"
+    ><img src="img/dos.webp" alt="" class="slider__img">
+  </div>
+    <div class="slider__section">
+      <img src="img/tres.webp" alt="" class="slider__img">
+    </div>
+    <div class="slider__section">
+      <img src="img/pexels-pramod-tiwari-13620268.jpg" alt=""class="slider__img">
+    </div>
+  </div>
+  <div class="slider__btn slider__btn--right" id="btn-right" >&#62;</div>
+  <div class="slider__btn slider__btn--left" id="btn-left">&#60;</div>
+  </div>
+  <script src="script.js"></script>
+  <!--<div class="texto">
+  <div class="parent">
+    <div class="div1">
+      <p> En CCORYLINE, encontrarás todos los productos
+         que necesitas. Nuestro equipo de profesionales 
+         está siempre disponible para ayudar
+        y ofrecer recomendaciones basadas en tus necesidades.
+         Aprovecha nuestras ofertas de tiempo limitado hoy mismo.</p>
+    </div>
+    <div class="div2">
+      <img src="img/240_F_301186238_xfC2fMA34CGimxYe70nHZ3UhoBlAv8Mj.jpg" alt="">
+    </div>
+    </div>
+
+    <div class="parent">
+      <div class="div2">
+      <p>La satisfacción del cliente es esencial para el equipo de CCORYLINE. Es por eso que estamos aquí para manejar cualquier problema o consulta que puedas tener, y asegurarnos de que
+           aproveches al máximo su compra y experiencia.</p>
+      </div>
+      <div class="div1">
+        <img src="img/240_F_374130400_akenfE6mKNI1nZeIo9jJaHtYeYSfKlsk.jpg" alt="">
+      </div>
+      </div>
+    </div>-->
+    <!--ALL UN ONE-->
+    <main class="main">
+      <div class="container" id="allinone">
+      <h2 class="main-title">ALL IN ONE</h2>
+        <section class="container-products">
+          <div class="product">
+            <img src="img/all-in-one-hp-200-g8-intel-celeron-j4025-4gb-1tb-207-fhd-freedos-464a7lt.jpg" alt="" class="product__img">
+            <div class="product__description">
+              <h6 class="product__title"> ALL IN ONE HP 200 G8 INTEL CELERON J4025 4GB 1TB 20.7 FHD FREEDOS</h6>
+              <span class="producto__price">S/ 1239</span>
+            </div>
+            <i class="product__icon fa-solid fa-cart-plus"></i> 
+          </div>
+          <div class="product">
+            <img src="img/Lenovo all in one.jpg" alt="" class="product__img">
+            <div class="product__description">
+              <h6 class="product__title">ALL IN ONE LENOVO IDEACENTRE 3 24IMB05 I3-10100T 4GB</h6>
+              <span class="producto__price">S/ 1419</span>
+            </div>
+            <i class="product__icon fa-solid fa-cart-plus"></i>
+          </div>
+          <div class="product">
+            <img src="img/all-in-one-hp-200-g4-i3-10110u-8gb-256gb-ssd-1tb-215-fhd-freedos-193t2lt-abm.jpg" alt="" class="product__img">
+            <div class="product__description">
+              <h6 class="product__title">ALL IN ONE HP 200 G4 I3-10110U 8GB 256GB SSD + 1TB</h6>
+              <span class="producto__price">S/ 1599</span>
+            </div>
+            <i class="product__icon fa-solid fa-cart-plus"></i>
+          </div>
+          <div class="product">
+            <img src="img/all-in-one-dell-5400-i3-1115g4-8gb-1tb-238-fhd-windows-10-x74t0.jpg" alt="" class="product__img">
+            <div class="product__description">
+              <h6 class="product__title">ALL IN ONE DELL 5400 I3-1115G4 8GB 1TB 23.8 FHD WINDOWS</h6>
+              <span class="producto__price">S/ 2419</span>
+            </div>
+            <i class="product__icon fa-solid fa-cart-plus"></i>
+          </div>
+          <div class="product">
+            <img src="img/all-in-one-lenovo-ideacentre-3i-i7-10700t-16gb-1tb-256gb-ssd-27-fhd-windows-10-f0ey00nald.jpg" alt="" class="product__img">
+            <div class="product__description">
+              <h6 class="product__title">ALL IN ONE LENOVO IDEACENTRE 3I I7-10700T 16GB 1TB</h6>
+              <span class="producto__price">S/ 5469</span>
+            </div>
+            <i class="product__icon fa-solid fa-cart-plus"></i>
+          </div>
+          <div class="product">
+            <img src="img/all-in-one ryzen.webp" alt="" class="product__img">
+            <div class="product__description">
+              <h6 class="product__title">HP 22 All-in-One PC 22-df0517la 21.5" AMD Ryzen 3-3250U 8GB RAM 256GB SSD</h6>
+              <span class="producto__price">S/ 2,499.00</span>
+            </div>
+            <i class="product__icon fa-solid fa-cart-plus"></i>
+          </div>
+        </section>
+          </div>
+          <br><br><br>
+        <!--PC ESCRITORIO-->
+          <div class="container" id="pcescritorio">
+            <h2 class="main-title">COMPUTADORA DE ESCRITORIO</h2>
+              <section class="container-products">
+                <div class="product">
+                  <img src="img/computadora-ofix-intel-pentium-gold-g6400-8gb-240gb-ssd-185-hd.jpg" alt="" class="product__img">
+                  <div class="product__description">
+                    <h6 class="product__title">COMPUTADORA OFIX INTEL PENTIUM GOLD G6400 8GB</h6>
+                    <span class="producto__price">S/ 1437</span>
+                  </div>
+                  <i class="product__icon fa-solid fa-cart-plus"></i> 
+                </div>
+                <div class="product">
+                  <img src="img/computadora-create-intel-i3-10105-8gb-ssd-480gb-195-hd.jpg" alt="" class="product__img">
+                  <div class="product__description">
+                    <h6 class="product__title">COMPUTADORA CREATE INTEL I3 10105 8GB SSD 480GB 19.5 HD</h6>
+                    <span class="producto__price">S/ 1749</span>
+                  </div>
+                  <i class="product__icon fa-solid fa-cart-plus"></i>
+                </div>
+                <div class="product">
+                  <img src="img/computadora-airtec-intel-i5-11400-oem-8gb-ssd-480gb-195-hd.jpg" alt="" class="product__img">
+                  <div class="product__description">
+                    <h6 class="product__title">COMPUTADORA AIRTEC INTEL I5-11400 OEM 8GB SSD 480GB 19.5 HD</h6>
+                    <span class="producto__price">S/ 2150</span>
+                  </div>
+                  <i class="product__icon fa-solid fa-cart-plus"></i>
+                </div>
+                <div class="product">
+                  <img src="img/computadora-experience-amd-ryzen-5-pro-4650g-8gb-480-ssd-195-hd.jpg" alt="" class="product__img">
+                  <div class="product__description">
+                    <h6 class="product__title">COMPUTADORA EXPERIENCE AMD RYZEN 5 PRO 4650G 8GB 480</h6>
+                    <span class="producto__price">S/ 2152</span>
+                  </div>
+                  <i class="product__icon fa-solid fa-cart-plus"></i>
+                </div>
+                <div class="product">
+                  <img src="img/computadora-teacher-ryzen-7-5700g-8gb-500gb-ssd-195-hd.jpg" alt="" class="product__img">
+                  <div class="product__description">
+                    <h6 class="product__title">COMPUTADORA TEACHER RYZEN 7 5700G 8GB 500GB SSD 19.5" HD</h6>
+                    <span class="producto__price">S/ 2707</span>
+                  </div>
+                  <i class="product__icon fa-solid fa-cart-plus"></i>
+                </div>
+                <div class="product">
+                  <img src="img/pcEscritorio.jpg" alt="" class="product__img">
+                  <div class="product__description">
+                    <h6 class="product__title">COMPUTADORA HP PAVILION GAMING TG01-1502LAM, AMD RYZEN 5-4600G, 8GB</h6>
+                    <span class="producto__price">S/ 3499</span>
+                  </div>
+                  <i class="product__icon fa-solid fa-cart-plus"></i>
+                </div>
+              </section>
+                </div>
+                <br><br><br>
+
+        <!--PC GAMER-->
+          <div class="container" id="pcgamer">
+            <h2 class="main-title">PC GAMER</h2>
+              <section class="container-products">
+                <div class="product">
+                  <img src="img/pcgamer1.jpg" alt="" class="product__img">
+                  <div class="product__description">
+                    <h6 class="product__title">PC Gamer Haku AMD A10</h6>
+                    <span class="producto__price">S/ 1699</span>
+                  </div>
+                  <i class="product__icon fa-solid fa-cart-plus"></i> 
+                </div>
+                <div class="product">
+                  <img src="img/pcgamer2.jpg" alt="" class="product__img">
+                  <div class="product__description">
+                    <h6 class="product__title">PC Gamer Haku AMD A10</h6>
+                    <span class="producto__price">S/ 2699</span>
+                  </div>
+                  <i class="product__icon fa-solid fa-cart-plus"></i>
+                </div>
+                <div class="product">
+                  <img src="img/pcgamer3.jpg" alt="" class="product__img">
+                  <div class="product__description">
+                    <h6 class="product__title">PC Gamer Draco Plus Core I5 10400F 10Th Gen</h6>
+                    <span class="producto__price">S/ 2599</span>
+                  </div>
+                  <i class="product__icon fa-solid fa-cart-plus"></i>
+                </div>
+                <div class="product">
+                  <img src="img/pcgamer4.jpg" alt="" class="product__img">
+                  <div class="product__description">
+                    <h6 class="product__title">PC Gamer Haku Ryzen 3 4350G</h6>
+                    <span class="producto__price">S/ 2099</span>
+                  </div>
+                  <i class="product__icon fa-solid fa-cart-plus"></i>
+                </div>
+                <div class="product">
+                  <img src="img/pcgamer5.jpg" alt="" class="product__img">
+                  <div class="product__description">
+                    <h6 class="product__title">PC Gamer FireX8-RGB Plus CORE I9 11900K 11Th Gen</h6>
+                    <span class="producto__price">S/ 12999</span>
+                  </div>
+                  <i class="product__icon fa-solid fa-cart-plus"></i>
+                </div>
+                <div class="product">
+                  <img src="img/pcgamer6.jpg" alt="" class="product__img">
+                  <div class="product__description">
+                    <h6 class="product__title">PC Gamer Falkor-Plus Ryzen 7 5800X</h6>
+                    <span class="producto__price">S/ 11099</span>
+                  </div>
+                  <i class="product__icon fa-solid fa-cart-plus"></i>
+                </div>
+              </section>
+                </div>
+                <br> <br> <br>
+                <!--LAPTOP-->
+          <div class="container" id="laptop">
+            <h2 class="main-title">LAPTOPS</h2>
+              <section class="container-products">
+                <div class="product">
+                  <img src="img/laptop1.jpg" alt="" class="product__img">
+                  <div class="product__description">
+                    <h6 class="product__title">LAPTOP ACER TMB311-31-C343 CELERON</h6>
+                    <span class="producto__price">S/ 699</span>
+                  </div>
+                  <i class="product__icon fa-solid fa-cart-plus"></i> 
+                </div>
+                <div class="product">
+                  <img src="img/laptop2.jpg" alt="" class="product__img">
+                  <div class="product__description">
+                    <h6 class="product__title">LAPTOP LENOVO IDEAPAD 3 15IGL05 N5030 8GB</h6>
+                    <span class="producto__price">S/ 849</span>
+                  </div>
+                  <i class="product__icon fa-solid fa-cart-plus"></i>
+                </div>
+                <div class="product">
+                  <img src="img/laptop3.jpg" alt="" class="product__img">
+                  <div class="product__description">
+                    <h6 class="product__title">LAPTOP CHUWI HEROBOOK PRO + INTEL CELERON</h6>
+                    <span class="producto__price">S/ 999</span>
+                  </div>
+                  <i class="product__icon fa-solid fa-cart-plus"></i>
+                </div>
+                <div class="product">
+                  <img src="img/laptop4.jpg" alt="" class="product__img">
+                  <div class="product__description">
+                    <h6 class="product__title">Laptop ACER Aspire 5 A514-54 Intel Core i5-1135G7</h6>
+                    <span class="producto__price">S/ 2299</span>
+                  </div>
+                  <i class="product__icon fa-solid fa-cart-plus"></i>
+                </div>
+                <div class="product">
+                  <img src="img/laptop5.jpg" alt="" class="product__img">
+                  <div class="product__description">
+                    <h6 class="product__title">Laptop Educativa Dell Latitude 3190, Intel Celeron 1.1 / 2.6GHz, RAM 4 GB</h6>
+                    <span class="producto__price">S/ 1399</span>
+                  </div>
+                  <i class="product__icon fa-solid fa-cart-plus"></i>
+                </div>
+                <div class="product">
+                  <img src="img/laptop6.jpg" alt="" class="product__img">
+                  <div class="product__description">
+                    <h6 class="product__title">LAPTOP HP 240 G8 I3-1005G1 8GB 1TB + 256GB SSD</h6>
+                    <span class="producto__price">S/ 1499</span>
+                  </div>
+                  <i class="product__icon fa-solid fa-cart-plus"></i>
+                </div>
+              </section>
+                </div>
+                <br> <br> <br>
+                <!--DISCO DURO-->
+          <div class="container" id="ddr">
+            <h2 class="main-title">DISCO DURO</h2>
+              <section class="container-products">
+                <div class="product">
+                  <img src="img/dd1.jpg" alt="" class="product__img">
+                  <div class="product__description">
+                    <h6 class="product__title">DISCO DURO TOSHIBA 1TB (HDWD110UZSVA) P300 | ROJO </h6>
+                    <span class="producto__price">S/ 187</span>
+                  </div>
+                  <i class="product__icon fa-solid fa-cart-plus"></i> 
+                </div>
+                <div class="product">
+                  <img src="img/dd2.jpg" alt="" class="product__img">
+                  <div class="product__description">
+                    <h6 class="product__title">DISCO DURO LAPTOP SEAGATE 1TB ( ST1000LM048 )</h6>
+                    <span class="producto__price">S/ 188</span>
+                  </div>
+                  <i class="product__icon fa-solid fa-cart-plus"></i>
+                </div>
+              </section>
+          </div>
+                <br> <br> <br>
+          <!--MEMORIA RAM-->
+          <div class="container" id="ran">
+            <h2 class="main-title">MEMORIA RAM</h2>
+              <section class="container-products">
+                <div class="product">
+                  <img src="img/mr1.jpg" alt="" class="product__img">
+                  <div class="product__description">
+                    <h6 class="product__title">MEMORIA RAM TEAM GROUP 4GB DDR4 2666MHZ TED44G2666C19BK</h6>
+                    <span class="producto__price">S/ 79</span>
+                  </div>
+                  <i class="product__icon fa-solid fa-cart-plus"></i> 
+                </div>
+                <div class="product">
+                  <img src="img/mr2.jpg" alt="" class="product__img">
+                  <div class="product__description">
+                    <h6 class="product__title">MEMORIA RAM CRUCIAL BASIC 8GB UDIMM DDR4 2666 CB8GU2666</h6>
+                    <span class="producto__price">S/ 98</span>
+                  </div>
+                  <i class="product__icon fa-solid fa-cart-plus"></i>
+                </div>
+                
+              </section>
+                </div>
+                
+                <br> <br> <br>
+                <!--CPU-->
+          <div class="container" id="cpu">
+            <h2 class="main-title">PROCESADORES</h2>
+              <section class="container-products">
+                <div class="product">
+                  <img src="img/CPU1.jpg" alt="" class="product__img">
+                  <div class="product__description">
+                    <h6 class="product__title">PROCESADOR INTEL PENTIUM GOLD G5420</h6>
+                    <span class="producto__price">S/ 302</span>
+                  </div>
+                  <i class="product__icon fa-solid fa-cart-plus"></i> 
+                </div>
+                <div class="product">
+                  <img src="img/cpu2.jpg" alt="" class="product__img">
+                  <div class="product__description">
+                    <h6 class="product__title">PROCESADOR AMD RYZEN 3 4100MPK MULTIPACK </h6>
+                    <span class="producto__price">S/ 499</span>
+                  </div>
+                  <i class="product__icon fa-solid fa-cart-plus"></i>
+                </div>
+              </section>
+          </div>
+                <br> <br> <br>
+          <!--PLACA MADRE-->
+          <div class="container" id="PLACA_MADRE">
+            <h2 class="main-title">PLACA MADRE</h2>
+              <section class="container-products">
+                <div class="product">
+                  <img src="img/pm1.jpg" alt="" class="product__img">
+                  <div class="product__description">
+                    <h6 class="product__title">MAINBOARD ASROCK A320M-HDV R4.0</h6>
+                    <span class="producto__price">S/ 225</span>
+                  </div>
+                  <i class="product__icon fa-solid fa-cart-plus"></i> 
+                </div>
+                <div class="product">
+                  <img src="img/PM2.jpg" alt="" class="product__img">
+                  <div class="product__description">
+                    <h6 class="product__title">MAINBOARD GIGABYTE B365M DS3H</h6>
+                    <span class="producto__price">S/ 336</span>
+                  </div>
+                  <i class="product__icon fa-solid fa-cart-plus"></i>
+                </div>
+              </section>
+          </div>
+                <br> <br> <br>
+                <!--CASE-->
+          <div class="container" id="case">
+            <h2 class="main-title">CASE</h2>
+              <section class="container-products">
+                <div class="product">
+                  <img src="img/case1.jpg" alt="" class="product__img">
+                  <div class="product__description">
+                    <h6 class="product__title">CASE HALION DATAONE ORION 584 (ORION 584) 600W</h6>
+                    <span class="producto__price">S/ 109</span>
+                  </div>
+                  <i class="product__icon fa-solid fa-cart-plus"></i> 
+                </div>
+                <div class="product">
+                  <img src="img/case2.jpg" alt="" class="product__img">
+                  <div class="product__description">
+                    <h6 class="product__title">CASE HALION DATAONE ORION 585 (ORION 585)</h6>
+                    <span class="producto__price">S/ 109</span>
+                  </div>
+                  <i class="product__icon fa-solid fa-cart-plus"></i>
+                </div>
+              </section>
+          </div>
+                <br> <br> <br>
+          <!--SILLA GAMER-->
+          <div class="container" id="silla_gamer">
+            <h2 class="main-title">SILLAS GAMER</h2>
+              <section class="container-products">
+                <div class="product">
+                  <img src="img/SG1.jpg" alt="" class="product__img">
+                  <div class="product__description">
+                    <h6 class="product__title">SILLA GAMER 1STPLAYER FK1</h6>
+                    <span class="producto__price">S/ 599</span>
+                  </div>
+                  <i class="product__icon fa-solid fa-cart-plus"></i> 
+                </div>
+                <div class="product">
+                  <img src="img/SG2.jpg" alt="" class="product__img">
+                  <div class="product__description">
+                    <h6 class="product__title">SILLA GAMER RIOTORO SPITFIRE X1S PLUS</h6>
+                    <span class="producto__price">S/ 999</span>
+                  </div>
+                  <i class="product__icon fa-solid fa-cart-plus"></i>
+                </div>
+                
+              </section>
+                </div>
+
+                <br> <br> <br>
+                <!--TECLADO GAMER-->
+                <div class="container" id="teclados">
+                  <h2 class="main-title">TECLADOS GAMER</h2>
+                    <section class="container-products">
+                      <div class="product">
+                        <img src="img/tg1.jpg" alt="" class="product__img">
+                        <div class="product__description">
+                          <h6 class="product__title">TECLADO PRIMUS MANDALORIAN BALLISTA90T MECANICO</h6>
+                          <span class="producto__price">S/ 303</span>
+                        </div>
+                        <i class="product__icon fa-solid fa-cart-plus"></i> 
+                      </div>
+                      <div class="product">
+                        <img src="img/tg2.jpg" alt="" class="product__img">
+                        <div class="product__description">
+                          <h6 class="product__title">TECLADO ANTRYX MK730 RGB RAINBOW CHROME STORM MECANICO</h6>
+                          <span class="producto__price">S/ 136.16</span>
+                        </div>
+                        <i class="product__icon fa-solid fa-cart-plus"></i>
+                      </div>
+                      
+                    </section>
+                      </div>
+        
+    </main>
+    
+    
+    
+    
+    <footer>
+      <div class="pie" id="pie">
+        <h3>Contactanos</h3> <br>
+        <p>Central Telefonico:</p>
+        <em><i class="fa-brands fa-whatsapp"></i> 923212684 <i class="fa-solid fa-phone-volume"></i> 987325146</em> 
+        <p>Correo electronico:</p> 
+        <em><i class="fa-regular fa-envelope"></i>atencionalcliente@ccoryline.com</em> 
+        <p>Horario de atencion</p> 
+        <em><i class="fa-regular fa-clock"></i>10:00 am a 9:00 pm</em> 
+        <p><center> Derechos reservados ® 2022 Copyright </center></p>
+    </div>
+    </footer>
+</body>
+</html>
